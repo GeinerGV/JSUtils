@@ -23,8 +23,8 @@ export default class ExecutorDebug {
 		}
 	}
 
-	// executor
-	// executed
+	// #executor // PUEDEN SER ATRIBUTOS PRIVADOS
+	// #executed // PUEDEN SER ATRIBUTOS PRIVADOS
 	constructor (fn) {
 		this.executor = fn
 		this.executed = false;
